@@ -4,9 +4,10 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- React
+- Redux
+- Styled Component
 
 ## Live Demo
 
@@ -26,7 +27,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd <folder>
-  git clone
+  git clone https://github.com/MohamedHNoor/online-clothing-shop.git
 ```
 
 ### Install
@@ -34,7 +35,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
- npm install
+ npm install or yarn install
 ```
 
 ### Usage
@@ -42,7 +43,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
- npm run dev
+ npm run dev or yarn run dev
 ```
 
 ### Run tests
@@ -50,7 +51,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npm test
+  npm test or yarn test
 ```
 
 ### Deployment
@@ -58,7 +59,7 @@ To run tests, run the following command:
 You can deploy this project using:
 
 ```sh
-npm run build
+npm run build or yarn run build
 ```
 
 ## Authors
@@ -73,7 +74,7 @@ npm run build
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MohamedHNoor/online-clothing-shop/issues).
 
 ## Show your support
 
