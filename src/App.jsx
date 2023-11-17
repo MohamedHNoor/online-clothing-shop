@@ -1,5 +1,7 @@
-function App() {
-  return <h1>React template</h1>;
-}
+import { Directory } from './components';
+
+const App = () => {
+  return <Directory />;
+};
 
 export default App;
