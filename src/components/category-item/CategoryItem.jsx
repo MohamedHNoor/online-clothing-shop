@@ -1,4 +1,3 @@
-import React from 'react';
 import CategoryWrapper from './Category.styles';
 
 const CategoryItem = ({ category }) => {

@@ -32,7 +32,6 @@ const Directory = () => {
   return (
     <CategoriesWrapper>
       {categories.map((category) => {
-        const { title, id, imageUrl } = category;
         return <CategoryItem category={category} key={category.id} />;
       })}
     </CategoriesWrapper>
