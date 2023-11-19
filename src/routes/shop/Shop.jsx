@@ -1,9 +1,7 @@
 const Shop = () => {
   return (
     <div>
-      <h1>
-        <table>This is the shop page</table>
-      </h1>
+      <h1>This is the shop page</h1>
     </div>
   );
 };
