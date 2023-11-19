@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
+
 import CategoryWrapper from './Category.styles';
 
 const CategoryItem = ({ category }) => {
