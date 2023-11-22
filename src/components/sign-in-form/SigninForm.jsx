@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import {
   signInWithGooglePopup,
   createUserDocumentFromAuth,
@@ -6,6 +6,7 @@ import {
 } from '../../utils/firebase/Firebase';
 import FormInput from '../form-input/FormInput';
 import Button from '../button/Button';
+import { UserContext } from '../../contexts/User.context';
 import './sign-in-form.styles.scss';
 
 const defaultFormFields = {
@@ -16,6 +17,8 @@ const defaultFormFields = {
 const SigninForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { email, password } = formFields;
+
+  const { setCurrentUser } = useContext(UserContext);
 
   // reset input fields
   const resetFormFields = () => {
@@ -32,11 +35,11 @@ const SigninForm = () => {
     event.preventDefault();
 
     try {
-      const response = await signInAuthUserWithEmailAndPassword(
+      const { user } = await signInAuthUserWithEmailAndPassword(
         email,
         password
       );
-      console.log(response);
+      setCurrentUser(user);
       resetFormFields();
     } catch (error) {
       if (error.code === 'auth/invalid-login-credentials') {
