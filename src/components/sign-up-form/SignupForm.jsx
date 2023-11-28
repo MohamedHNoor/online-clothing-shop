@@ -23,7 +23,7 @@ const SignupForm = () => {
     setFormFields(defaultFormFields);
   };
 
-  // form submit handle
+  // form submit handler
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (password !== confirmPassword) {
