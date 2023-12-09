@@ -4,6 +4,7 @@ import SigninForm from './sign-in-form/SigninForm';
 import ProductCard from './product-card/ProductCard';
 import CartIcon from './cart-icon/CartIcon';
 import CardDropdown from './cart-dropdown/CardDropdown';
+import CheckoutItem from './checkout-item/CheckoutItem';
 
 export {
   Directory,
@@ -12,4 +13,5 @@ export {
   ProductCard,
   CartIcon,
   CardDropdown,
+  CheckoutItem,
 };
