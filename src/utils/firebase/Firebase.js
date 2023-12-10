@@ -63,7 +63,7 @@ export const addCollectionAndDocuments = async (
   console.log('done');
 };
 
-// get data from the db
+// get data collection from the db
 export const getCategoriesAndDocuments = async () => {
   const collectionRef = collection(db, 'categories');
   const q = query(collectionRef);
