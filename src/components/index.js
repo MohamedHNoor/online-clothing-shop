@@ -5,6 +5,7 @@ import ProductCard from './product-card/ProductCard';
 import CartIcon from './cart-icon/CartIcon';
 import CardDropdown from './cart-dropdown/CardDropdown';
 import CheckoutItem from './checkout-item/CheckoutItem';
+import CategoryPreview from './category-preview/CategoryPreview';
 
 export {
   Directory,
@@ -14,4 +15,5 @@ export {
   CartIcon,
   CardDropdown,
   CheckoutItem,
+  CategoryPreview,
 };
